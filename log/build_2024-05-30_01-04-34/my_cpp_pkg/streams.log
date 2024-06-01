@@ -1,0 +1,45 @@
+[0.014s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.244s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.246s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.250s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.397s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.527s] -- Configuring done
+[5.536s] -- Generating done
+[5.537s] -- Build files have been written to: /home/two-asus/ros2_ws/build/my_cpp_pkg
+[5.554s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[5.554s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[5.554s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[5.564s] [ 50%] [32m[1mLinking CXX executable smartphone[0m
+[5.564s] [ 83%] Built target robot_news_station
+[5.564s] [ 83%] Built target cpp_node
+[5.870s] [100%] Built target smartphone
+[5.877s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[5.902s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg
+[5.905s] -- Install configuration: ""
+[5.906s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.906s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[5.906s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[5.908s] -- Set runtime path of "/home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[5.908s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.908s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.908s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.909s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.909s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.909s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.909s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.909s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.909s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.909s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.909s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.909s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.910s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.910s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.910s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.911s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,10 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/two-asus/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/two-asus/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/two-asus/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/two-asus/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/two-asus/ros2_ws/src/my_robot_interfaces:srv/CatchTutle.srv"
+  ]
+}

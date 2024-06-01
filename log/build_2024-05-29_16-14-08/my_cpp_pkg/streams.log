@@ -1,0 +1,38 @@
+[0.013s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.036s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.309s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.313s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.324s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.425s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.689s] -- Configuring done
+[5.701s] -- Generating done
+[5.702s] -- Build files have been written to: /home/two-asus/ros2_ws/build/my_cpp_pkg
+[5.727s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[7.760s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[7.944s] [100%] Built target cpp_node
+[7.951s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[7.975s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg
+[7.979s] -- Install configuration: ""
+[7.979s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/$(PROJECT_NAME)/cpp_node
+[7.980s] -- Set runtime path of "/home/two-asus/ros2_ws/install/my_cpp_pkg/lib/$(PROJECT_NAME)/cpp_node" to ""
+[7.980s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.980s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.981s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.981s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.981s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.981s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.981s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.981s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.982s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.982s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.982s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.982s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.982s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.983s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.983s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.983s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.106s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.272s] [100%] Built target cpp_node
+[2.280s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/two-asus/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[2.300s] Invoking command in '/home/two-asus/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg
+[2.305s] -- Install configuration: ""
+[2.306s] -- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.306s] -- Set runtime path of "/home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.306s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.307s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.308s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.308s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.308s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.308s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.308s] -- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.309s] Invoked command in '/home/two-asus/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/two-asus/ros2_ws/build/my_cpp_pkg

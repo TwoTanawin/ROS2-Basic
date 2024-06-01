@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000666] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000750] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000800] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.005122] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.009732] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.010472] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.011281] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/two-asus/ros2_ws/build/my_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/two-asus/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/8493_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d17e0bb5-026a-4211-ae94-d3fc441a6feb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/two-asus/ros2_ws/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.027513] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098982] (-) TimerEvent: {}
+[0.107579] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199096] (-) TimerEvent: {}
+[0.243434] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.244938] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.248758] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.257221] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.267358] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299223] (-) TimerEvent: {}
+[0.306129] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.306916] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.359966] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/two-asus/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/two-asus/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/two-asus/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'two-asus', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/two-asus', 'OLDPWD': '/home/two-asus', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/two-asus/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'two-asus', 'NAME': 'Two', 'WSL_INTEROP': '/run/WSL/8493_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d17e0bb5-026a-4211-ae94-d3fc441a6feb', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/two-asus/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/two-asus/ros2_ws/build/my_py_pkg/prefix_override:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6800', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/two-asus/ros2_ws/install/my_cpp_pkg', 'WSLENV': ''}, 'shell': False}
+[0.399343] (-) TimerEvent: {}
+[0.489262] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.489732] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.489922] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.490102] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.490342] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.490406] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.491358] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.491932] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.492171] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.492252] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.492499] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.492727] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.493588] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.493743] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.494750] (my_py_pkg) StdoutLine: {'line': b"removing '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.495001] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.495625] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.499487] (-) TimerEvent: {}
+[0.510728] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.510963] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.511270] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.511345] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.511394] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.511434] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.511563] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/two-asus/ros2_ws/build/my_py_pkg/install.log'\n"}
+[0.533747] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.542028] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.599623] (-) TimerEvent: {}
+[0.699987] (-) TimerEvent: {}
+[0.800367] (-) TimerEvent: {}
+[0.900759] (-) TimerEvent: {}
+[1.001092] (-) TimerEvent: {}
+[1.101451] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302154] (-) TimerEvent: {}
+[1.402487] (-) TimerEvent: {}
+[1.502906] (-) TimerEvent: {}
+[1.603346] (-) TimerEvent: {}
+[1.703652] (-) TimerEvent: {}
+[1.803967] (-) TimerEvent: {}
+[1.904319] (-) TimerEvent: {}
+[2.004650] (-) TimerEvent: {}
+[2.104983] (-) TimerEvent: {}
+[2.205386] (-) TimerEvent: {}
+[2.305822] (-) TimerEvent: {}
+[2.406138] (-) TimerEvent: {}
+[2.506480] (-) TimerEvent: {}
+[2.606850] (-) TimerEvent: {}
+[2.707272] (-) TimerEvent: {}
+[2.807681] (-) TimerEvent: {}
+[2.908091] (-) TimerEvent: {}
+[3.008498] (-) TimerEvent: {}
+[3.108806] (-) TimerEvent: {}
+[3.209166] (-) TimerEvent: {}
+[3.309477] (-) TimerEvent: {}
+[3.409814] (-) TimerEvent: {}
+[3.510171] (-) TimerEvent: {}
+[3.610511] (-) TimerEvent: {}
+[3.710956] (-) TimerEvent: {}
+[3.811385] (-) TimerEvent: {}
+[3.911816] (-) TimerEvent: {}
+[4.012166] (-) TimerEvent: {}
+[4.112531] (-) TimerEvent: {}
+[4.212874] (-) TimerEvent: {}
+[4.313274] (-) TimerEvent: {}
+[4.413613] (-) TimerEvent: {}
+[4.513962] (-) TimerEvent: {}
+[4.614313] (-) TimerEvent: {}
+[4.714732] (-) TimerEvent: {}
+[4.815149] (-) TimerEvent: {}
+[4.915550] (-) TimerEvent: {}
+[5.015870] (-) TimerEvent: {}
+[5.116241] (-) TimerEvent: {}
+[5.216559] (-) TimerEvent: {}
+[5.316934] (-) TimerEvent: {}
+[5.417249] (-) TimerEvent: {}
+[5.512596] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.517356] (-) TimerEvent: {}
+[5.614935] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[5.617445] (-) TimerEvent: {}
+[5.717732] (-) TimerEvent: {}
+[5.747275] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.761990] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.763303] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/two-asus/ros2_ws/build/my_cpp_pkg\n'}
+[5.781279] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[5.781574] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[5.781802] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[5.781880] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[5.781950] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[5.787036] (my_cpp_pkg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[5.792386] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[5.792637] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[5.792746] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_client_no_oop\n'}
+[5.792846] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target smartphone\n'}
+[5.793003] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target add_two_ints_server\n'}
+[5.817848] (-) TimerEvent: {}
+[5.918176] (-) TimerEvent: {}
+[6.018582] (-) TimerEvent: {}
+[6.118960] (-) TimerEvent: {}
+[6.219360] (-) TimerEvent: {}
+[6.319752] (-) TimerEvent: {}
+[6.420190] (-) TimerEvent: {}
+[6.520622] (-) TimerEvent: {}
+[6.621020] (-) TimerEvent: {}
+[6.721414] (-) TimerEvent: {}
+[6.821817] (-) TimerEvent: {}
+[6.922249] (-) TimerEvent: {}
+[7.022699] (-) TimerEvent: {}
+[7.123197] (-) TimerEvent: {}
+[7.223652] (-) TimerEvent: {}
+[7.324087] (-) TimerEvent: {}
+[7.424582] (-) TimerEvent: {}
+[7.427997] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.428232] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.428320] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.428403] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.428511] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.428593] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.428664] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.428733] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.428797] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.428864] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.428931] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.428998] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/two-asus/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[7.429065] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/two-asus/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.429124] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/two-asus/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:29:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.429168] (my_cpp_pkg) StderrLine: {'line': b'   29 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, a, b, \x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[7.429206] (my_cpp_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K        \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.429242] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[7.429277] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[7.429312] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/two-asus/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:29:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[7.429350] (my_cpp_pkg) StderrLine: {'line': b'   29 |             RCLCPP_INFO(this->get_logger(), "%d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", a, b, response->sum);\n'}
+[7.429387] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[7.429443] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[7.429483] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[7.429518] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[7.524752] (-) TimerEvent: {}
+[7.625318] (-) TimerEvent: {}
+[7.725748] (-) TimerEvent: {}
+[7.826178] (-) TimerEvent: {}
+[7.926603] (-) TimerEvent: {}
+[8.027424] (-) TimerEvent: {}
+[8.127890] (-) TimerEvent: {}
+[8.212584] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[8.228015] (-) TimerEvent: {}
+[8.328619] (-) TimerEvent: {}
+[8.383428] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client\n'}
+[8.390705] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.416198] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.421075] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/two-asus/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/two-asus/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/8493_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d17e0bb5-026a-4211-ae94-d3fc441a6feb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/two-asus/ros2_ws/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.424594] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.424936] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[8.425105] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[8.425254] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[8.425335] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[8.425658] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[8.425788] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[8.426111] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""\n'}
+[8.426259] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[8.426475] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[8.426632] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.426796] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.426879] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[8.426954] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[8.427076] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[8.427154] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[8.427361] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[8.427597] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[8.427692] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[8.427784] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[8.427876] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[8.427970] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[8.428066] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[8.428794] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.429521] (-) TimerEvent: {}
+[8.461301] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[8.462476] (-) EventReactorShutdown: {}

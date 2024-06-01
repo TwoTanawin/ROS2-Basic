@@ -1,0 +1,33 @@
+[0.353s] Invoking command in '/home/two-asus/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/two-asus/ros2_ws/build/my_py_pkg/prefix_override:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/two-asus/ros2_ws/build/my_py_pkg/build install --record /home/two-asus/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.481s] running egg_info
+[0.482s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.482s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.482s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.482s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.482s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.483s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.483s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.483s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.484s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.484s] running build
+[0.484s] running build_py
+[0.484s] creating /home/two-asus/ros2_ws/build/my_py_pkg/build
+[0.485s] creating /home/two-asus/ros2_ws/build/my_py_pkg/build/lib
+[0.485s] creating /home/two-asus/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.485s] copying my_py_pkg/__init__.py -> /home/two-asus/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.485s] running install
+[0.485s] running install_lib
+[0.485s] creating /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.485s] copying /home/two-asus/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.485s] byte-compiling /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.486s] running install_data
+[0.486s] creating /home/two-asus/ros2_ws/install/my_py_pkg/share/ament_index
+[0.486s] creating /home/two-asus/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.486s] creating /home/two-asus/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.486s] copying resource/my_py_pkg -> /home/two-asus/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.486s] copying package.xml -> /home/two-asus/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.486s] running install_egg_info
+[0.487s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.488s] running install_scripts
+[0.502s] writing list of installed files to '/home/two-asus/ros2_ws/build/my_py_pkg/install.log'
+[0.524s] Invoked command in '/home/two-asus/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/two-asus/ros2_ws/build/my_py_pkg/prefix_override:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/two-asus/ros2_ws/build/my_py_pkg/build install --record /home/two-asus/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

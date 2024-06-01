@@ -1,0 +1,490 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000337] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/two-asus/ros2_ws/install/my_robot_interfaces')])}
+[0.000570] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/two-asus/ros2_ws/install/my_robot_interfaces')])}
+[0.000739] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.005842] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.006358] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.007195] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/two-asus/ros2_ws/build/my_robot_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/two-asus/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('GIT_ASKPASS', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-dc4be5f4-1bb4-49cc-9679-8d119ae2ba26.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/2874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7a5c86720.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/two-asus/ros2_ws/build/my_robot_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.024818] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098979] (-) TimerEvent: {}
+[0.104790] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.105843] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.107609] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199119] (-) TimerEvent: {}
+[0.249594] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.266015] (my_robot_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.299273] (-) TimerEvent: {}
+[0.399665] (-) TimerEvent: {}
+[0.485874] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.499822] (-) TimerEvent: {}
+[0.600207] (-) TimerEvent: {}
+[0.628793] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700387] (-) TimerEvent: {}
+[0.800842] (-) TimerEvent: {}
+[0.815907] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.830473] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.845277] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.845537] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.845628] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.866112] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.891575] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.893678] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/two-asus/ros2_ws/build/my_robot_interfaces\n'}
+[0.900939] (-) TimerEvent: {}
+[0.911414] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.917225] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.923185] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[1.001105] (-) TimerEvent: {}
+[1.068588] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.069292] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[1.069566] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[1.069746] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[1.071606] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.071984] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.093044] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[1.101262] (-) TimerEvent: {}
+[1.124905] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] Built target my_robot_interfaces__cpp\n'}
+[1.129699] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.130543] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.130675] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.130847] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.137348] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[1.137605] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[1.199665] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.201353] (-) TimerEvent: {}
+[1.291130] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[1.297675] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.297856] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.297948] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.301505] (-) TimerEvent: {}
+[1.326464] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.335175] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.335548] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.335649] (my_robot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.345504] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.345741] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.367270] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.376364] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.377385] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.401717] (-) TimerEvent: {}
+[1.502203] (-) TimerEvent: {}
+[1.547143] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.554584] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.556101] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.556978] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.566582] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[1.566948] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[1.583351] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.583754] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.584074] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.594214] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[1.594494] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[1.602353] (-) TimerEvent: {}
+[1.625366] (my_robot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.665123] (my_robot_interfaces) StdoutLine: {'line': b'[ 66%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[1.667330] (my_robot_interfaces) StdoutLine: {'line': b'[ 66%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[1.699772] (my_robot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.702442] (-) TimerEvent: {}
+[1.730433] (my_robot_interfaces) StdoutLine: {'line': b'[ 69%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.736267] (my_robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.802588] (-) TimerEvent: {}
+[1.812390] (my_robot_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.853125] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.854304] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.902764] (-) TimerEvent: {}
+[1.975037] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.986945] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces\n'}
+[1.999039] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.002852] (-) TimerEvent: {}
+[2.103178] (-) TimerEvent: {}
+[2.203604] (-) TimerEvent: {}
+[2.289413] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__py\n'}
+[2.295608] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.303761] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[2.304046] (-) TimerEvent: {}
+[2.304217] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[2.376213] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.404214] (-) TimerEvent: {}
+[2.472520] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[2.479036] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.479268] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.479376] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.487402] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.487697] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.487884] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.504364] (-) TimerEvent: {}
+[2.550240] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.550424] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.550479] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.604490] (-) TimerEvent: {}
+[2.623531] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.623723] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.628236] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.636480] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[2.692175] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[2.699610] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/two-asus/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/two-asus/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('GIT_ASKPASS', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-dc4be5f4-1bb4-49cc-9679-8d119ae2ba26.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/2874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7a5c86720.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/two-asus/ros2_ws/build/my_robot_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.704661] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.704938] (-) TimerEvent: {}
+[2.705258] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[2.705659] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.705726] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.705776] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[2.705819] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.705916] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.706022] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[2.706155] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[2.706270] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[2.706345] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[2.706451] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.706636] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.706869] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[2.707079] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[2.707234] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[2.707416] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[2.707660] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[2.707728] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[2.707794] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[2.707859] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[2.708006] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[2.708136] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.708182] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.708249] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.708415] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.708474] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.708525] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.708567] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.708657] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[2.708802] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.709021] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.709238] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.709494] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.709614] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.709735] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[2.709837] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[2.710012] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.710161] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.710208] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.710251] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[2.710299] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[2.710339] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.710489] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.710657] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[2.710956] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.711156] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.711284] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.711339] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[2.711407] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.711548] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[2.711678] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[2.711745] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[2.711915] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.712009] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.712118] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[2.712234] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[2.712484] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[2.712552] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[2.712617] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.712723] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.712917] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.712994] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[2.713041] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.713086] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.713141] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.713182] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.713222] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.713361] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[2.713410] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.713726] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.714233] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.714515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.715005] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.715084] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[2.715153] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.715341] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[2.715475] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[2.715624] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[2.715781] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.715976] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.716076] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.716223] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.716338] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.716515] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[2.716619] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[2.716742] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.716844] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.716945] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.717048] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.717149] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.717335] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[2.717449] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[2.717552] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.717653] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.717805] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.717916] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.718073] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[2.718213] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[2.718337] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[2.718473] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[2.718695] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.718768] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[2.718842] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[2.718893] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[2.718958] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[2.719003] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.719056] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[2.743853] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[2.744117] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...\n"}
+[2.744356] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[2.744497] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...\n"}
+[2.744706] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py'...\n"}
+[2.744866] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[2.745005] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...\n"}
+[2.745170] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[2.747643] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.748130] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.748345] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.748865] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.748997] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.749253] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.749402] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[2.749707] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[2.749826] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[2.750070] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[2.750172] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[2.750299] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[2.750466] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[2.750577] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[2.750769] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[2.750886] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[2.750941] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[2.750985] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.751183] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[2.751356] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[2.751480] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[2.751633] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[2.751719] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[2.751827] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[2.751928] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[2.752044] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[2.752215] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.752390] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.752647] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.752708] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.752774] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.752934] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.753064] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.753215] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.753265] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.753309] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.753350] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.753391] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.753433] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.753497] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.753542] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.753584] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.753625] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.753664] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.753711] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.753796] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.753872] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.753917] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.753957] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.754023] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.754081] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[2.754132] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[2.754196] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[2.755176] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[2.805077] (-) TimerEvent: {}
+[2.824982] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[2.826272] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[2.829211] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[2.899113] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[2.899994] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[2.900878] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/two-asus/ros2_ws/build/my_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/two-asus/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('GIT_ASKPASS', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-dc4be5f4-1bb4-49cc-9679-8d119ae2ba26.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/2874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7a5c86720.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/two-asus/ros2_ws/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.905175] (-) TimerEvent: {}
+[3.005521] (-) TimerEvent: {}
+[3.106019] (-) TimerEvent: {}
+[3.144017] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.144223] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.206151] (-) TimerEvent: {}
+[3.209461] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.212453] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.219018] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.228426] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.241169] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.296172] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.297151] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.306250] (-) TimerEvent: {}
+[3.406692] (-) TimerEvent: {}
+[3.507139] (-) TimerEvent: {}
+[3.537844] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/two-asus/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/two-asus/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/two-asus/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'two-asus', 'GIT_ASKPASS': '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/two-asus/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/two-asus', 'OLDPWD': '/home/two-asus', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-dc4be5f4-1bb4-49cc-9679-8d119ae2ba26.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/two-asus/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'two-asus', 'NAME': 'Two', 'WSL_INTEROP': '/run/WSL/2874_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e7a5c86720.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/two-asus/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/two-asus/ros2_ws/build/my_py_pkg/prefix_override:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_cpp_pkg', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[3.607265] (-) TimerEvent: {}
+[3.707669] (-) TimerEvent: {}
+[3.736708] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.737531] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[3.737854] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[3.738059] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[3.738266] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[3.738386] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[3.740035] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.740868] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.741095] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[3.741155] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.741630] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[3.741953] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.743267] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.743498] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.745580] (my_py_pkg) StdoutLine: {'line': b"removing '/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.745921] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[3.746821] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.766361] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.766787] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767001] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767321] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767429] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767503] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767713] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/two-asus/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.767841] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/two-asus/ros2_ws/build/my_py_pkg/install.log'\n"}
+[3.805722] (my_py_pkg) CommandEnded: {'returncode': 0}
+[3.808061] (-) TimerEvent: {}
+[3.812407] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[3.908254] (-) TimerEvent: {}
+[4.008711] (-) TimerEvent: {}
+[4.109216] (-) TimerEvent: {}
+[4.209739] (-) TimerEvent: {}
+[4.310184] (-) TimerEvent: {}
+[4.410701] (-) TimerEvent: {}
+[4.511049] (-) TimerEvent: {}
+[4.611416] (-) TimerEvent: {}
+[4.711762] (-) TimerEvent: {}
+[4.812105] (-) TimerEvent: {}
+[4.912465] (-) TimerEvent: {}
+[5.012818] (-) TimerEvent: {}
+[5.113187] (-) TimerEvent: {}
+[5.213584] (-) TimerEvent: {}
+[5.313920] (-) TimerEvent: {}
+[5.414261] (-) TimerEvent: {}
+[5.514608] (-) TimerEvent: {}
+[5.614975] (-) TimerEvent: {}
+[5.715334] (-) TimerEvent: {}
+[5.815714] (-) TimerEvent: {}
+[5.916058] (-) TimerEvent: {}
+[6.016409] (-) TimerEvent: {}
+[6.116764] (-) TimerEvent: {}
+[6.217234] (-) TimerEvent: {}
+[6.317638] (-) TimerEvent: {}
+[6.418001] (-) TimerEvent: {}
+[6.518402] (-) TimerEvent: {}
+[6.618843] (-) TimerEvent: {}
+[6.719283] (-) TimerEvent: {}
+[6.819719] (-) TimerEvent: {}
+[6.920068] (-) TimerEvent: {}
+[7.020481] (-) TimerEvent: {}
+[7.120888] (-) TimerEvent: {}
+[7.221339] (-) TimerEvent: {}
+[7.321723] (-) TimerEvent: {}
+[7.422063] (-) TimerEvent: {}
+[7.522410] (-) TimerEvent: {}
+[7.622754] (-) TimerEvent: {}
+[7.723106] (-) TimerEvent: {}
+[7.823438] (-) TimerEvent: {}
+[7.923795] (-) TimerEvent: {}
+[8.024180] (-) TimerEvent: {}
+[8.124590] (-) TimerEvent: {}
+[8.224925] (-) TimerEvent: {}
+[8.325303] (-) TimerEvent: {}
+[8.425694] (-) TimerEvent: {}
+[8.526169] (-) TimerEvent: {}
+[8.626503] (-) TimerEvent: {}
+[8.726901] (-) TimerEvent: {}
+[8.827339] (-) TimerEvent: {}
+[8.867942] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.927572] (-) TimerEvent: {}
+[8.973842] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[9.027783] (-) TimerEvent: {}
+[9.064405] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/two-asus/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[9.127986] (-) TimerEvent: {}
+[9.134757] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.152831] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[9.154354] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/two-asus/ros2_ws/build/my_cpp_pkg\n'}
+[9.174103] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[9.174496] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[9.174658] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hw_status_publisher\x1b[0m\n'}
+[9.174940] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[9.174999] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[9.175044] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[9.175085] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[9.187419] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target smartphone\n'}
+[9.187865] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target add_two_ints_client_no_oop\n'}
+[9.187963] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target add_two_ints_server\n'}
+[9.188027] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o\x1b[0m\n'}
+[9.188093] (my_cpp_pkg) StdoutLine: {'line': b'[ 64%] Built target add_two_ints_client\n'}
+[9.188589] (my_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target cpp_node\n'}
+[9.189438] (my_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target robot_news_station\n'}
+[9.228129] (-) TimerEvent: {}
+[9.328514] (-) TimerEvent: {}
+[9.428938] (-) TimerEvent: {}
+[9.529437] (-) TimerEvent: {}
+[9.629896] (-) TimerEvent: {}
+[9.730287] (-) TimerEvent: {}
+[9.830696] (-) TimerEvent: {}
+[9.931119] (-) TimerEvent: {}
+[10.031635] (-) TimerEvent: {}
+[10.132201] (-) TimerEvent: {}
+[10.232773] (-) TimerEvent: {}
+[10.333233] (-) TimerEvent: {}
+[10.433695] (-) TimerEvent: {}
+[10.534157] (-) TimerEvent: {}
+[10.634653] (-) TimerEvent: {}
+[10.735147] (-) TimerEvent: {}
+[10.835679] (-) TimerEvent: {}
+[10.936573] (-) TimerEvent: {}
+[11.037042] (-) TimerEvent: {}
+[11.137491] (-) TimerEvent: {}
+[11.237981] (-) TimerEvent: {}
+[11.338386] (-) TimerEvent: {}
+[11.438856] (-) TimerEvent: {}
+[11.539314] (-) TimerEvent: {}
+[11.639780] (-) TimerEvent: {}
+[11.740228] (-) TimerEvent: {}
+[11.840715] (-) TimerEvent: {}
+[11.941128] (-) TimerEvent: {}
+[12.041605] (-) TimerEvent: {}
+[12.142094] (-) TimerEvent: {}
+[12.242902] (-) TimerEvent: {}
+[12.343480] (-) TimerEvent: {}
+[12.362083] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hw_status_publisher\x1b[0m\n'}
+[12.443566] (-) TimerEvent: {}
+[12.544094] (-) TimerEvent: {}
+[12.592004] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target hw_status_publisher\n'}
+[12.600268] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.626996] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[12.627412] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/two-asus/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/two-asus/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'two-asus'), ('GIT_ASKPASS', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/two-asus'), ('OLDPWD', '/home/two-asus'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-dc4be5f4-1bb4-49cc-9679-8d119ae2ba26.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/two-asus/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'two-asus'), ('NAME', 'Two'), ('WSL_INTEROP', '/run/WSL/2874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/two-asus/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Java/jre-1.8/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include:/mnt/c/MinGW/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Tanaw/anaconda3:/mnt/c/Users/Tanaw/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Tanaw/anaconda3/Library/usr/bin:/mnt/c/Users/Tanaw/anaconda3/Library/bin:/mnt/c/Users/Tanaw/anaconda3/Scripts:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tanaw/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Tanaw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tanaw/.dotnet/tools:/mnt/c/Users/Tanaw/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.1.2/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7a5c86720.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_py_pkg:/home/two-asus/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/two-asus/ros2_ws/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/two-asus/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/two-asus/ros2_ws/install/my_robot_interfaces:/home/two-asus/ros2_ws/install/my_cpp_pkg:/home/two-asus/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[12.632760] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.633134] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[12.633498] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[12.633709] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[12.633894] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[12.634205] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[12.634340] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[12.634430] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher\n'}
+[12.635025] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/two-asus/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""\n'}
+[12.635229] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[12.635499] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[12.635696] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[12.635996] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[12.636091] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[12.636168] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[12.636243] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[12.636364] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[12.636727] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[12.636833] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[12.636930] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[12.637027] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[12.637274] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[12.637390] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[12.637488] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/two-asus/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[12.637944] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.644253] (-) TimerEvent: {}
+[12.675948] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[12.677030] (-) EventReactorShutdown: {}
